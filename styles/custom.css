@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+/* font-weight: 400 y 600 */
+
+body{
+    width:100% !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color: #fff !important;
+    overflow-x:hidden;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#img-logo{
+    margin-left:0 !important;
+    width: 100px;
+}
+
+h1{
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.email_container{
+    display: flex;
+    justify-content: end;
+}
+
+#button-mail{
+    border: none;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    color: black;
+    margin-right: 0 !important;
+}
+
+main{
+    flex-direction: column !important;
+    background-color:rgb(0, 3, 44);
+}
+
+main nav:first-child{
+    height: 10vh;
+    background-color: #071624 !important;
+}
+
+.dropdownBtn{
+    color: white !important;
+    font-size: 1.25rem;
+}
+
+.subtitle_container{
+    padding: 0 6rem !important;
+    min-height: 75vh;
+}
+
+main div p{
+    text-align:justify;
+    font-size: 1.1rem !important;
+}
+
+.subtitle{
+    font-size:3.5rem;
+    letter-spacing: 4px;
+}
+
+#main-img{
+    top:5rem;
+}
+
+.loyalty-text-subtitlte{
+    min-height: 21rem !important;
+}
+
+.text-loyalty{
+    position:relative;
+    top: 1rem;
+}
+input[type="checkbox"]{
+    margin-top: 13px !important;
+    margin-left: 10px !important;
+}
+
+.table_container{
+    background-color: #071624 !important;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.table{
+    margin-bottom: 0 !important;
+}
+
+#filtros_container{
+    background-color: #071624 !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.name_link{
+    color:white;
+}
+
+/* -----FOOTER STYLES--- */
+footer{
+    height: 30vh;
+}
+
+footer div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+footer div p{
+    margin-top:initial !important;;
+    margin-bottom:initial !important;
+}
+
+@media screen and (max-width: 991px){
+    
+    h1{
+        font-size: 1.5rem;
+
+    }
+
+    #button-mail{
+        font-size: 1rem;
+        letter-spacing: 0px;
+    }
+
+    #btn-burguer{
+        margin-bottom: .8rem !important;
+    }
+    #form_container{
+        flex-direction: column;
+        align-items: start !important;
+    }
+}
