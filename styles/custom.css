@@ -42,8 +42,8 @@ main{
 }
 
 main nav:first-child{
-    height: 10vh;
-    background-color: #071624 !important;
+    min-height: 10vh;
+    background-color: #0c0c14 !important;
 }
 
 .dropdownBtn{
@@ -53,7 +53,7 @@ main nav:first-child{
 
 .subtitle_container{
     padding: 0 6rem !important;
-    min-height: 75vh;
+    min-height: 50vh;
 }
 
 main div p{
@@ -70,6 +70,34 @@ main div p{
     top:5rem;
 }
 
+
+#filtros_container{
+    background-color: #0c0c14 !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+input[type="checkbox"]{
+    margin-top: 13px !important;
+    margin-left: 10px !important;
+}
+
+.table_container{
+    text-align: center;
+}
+
+.table{
+    margin-bottom: 0 !important;
+}
+thead tr {
+    color: #ed4646;
+    text-transform: uppercase;
+}
+
+.name_link{
+    color:white;
+}
+
 .loyalty-text-subtitlte{
     min-height: 21rem !important;
 }
@@ -78,34 +106,16 @@ main div p{
     position:relative;
     top: 1rem;
 }
-input[type="checkbox"]{
-    margin-top: 13px !important;
-    margin-left: 10px !important;
-}
 
-.table_container{
-    background-color: #071624 !important;
-    border: 1px solid white;
-    text-align: center;
+.contenedor_fila_tabla{
+    /* min-height: 70vh; */
+    margin-bottom: 25rem;
 }
-
-.table{
-    margin-bottom: 0 !important;
-}
-
-#filtros_container{
-    background-color: #071624 !important;
-    font-size: 1.3rem;
-    font-weight: 600;
-}
-
-.name_link{
-    color:white;
-}
-
 /* -----FOOTER STYLES--- */
 footer{
+    background-color: #c5c6c7!important;
     height: 30vh;
+    position: sticky;
 }
 
 footer div{
